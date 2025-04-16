@@ -25,9 +25,16 @@ vim.opt.wrap = true -- wrap lines
 -- ########## nvim.lazy 
 -- Make sure to setup `mapleader` and `maplocalleader` before loading lazy.nvim so that mappings are correct.
 -- This is also a good place to setup other settings (vim.opt)
-vim.g.mapleader = " "
-vim.g.maplocalleader = "\\"
+vim.g.mapleader = ","
+-- vim.g.maplocalleader = "\\"
 -- ########## nvim.lazy
+-- ######### nvim-tree
+vim.api.nvim_set_keymap("n", "<C-h>", ":NvimTreeToggle<cr>", {silent = true, noremap = true})
+-- on_attach
+-- vim.keymap.set("n", "l", edit_or_open,          opts("Edit Or Open"))
+-- vim.keymap.set("n", "L", vsplit_preview,        opts("Vsplit Preview"))
+-- vim.keymap.set("n", "h", api.tree.close,        opts("Close"))
+-- vim.keymap.set("n", "H", api.tree.collapse_all, opts("Collapse All"))
 
 -- Lazy package manager configuration goes first
 require("config.lazy")
