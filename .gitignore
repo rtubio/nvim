@@ -40,5 +40,5 @@ luac.out
 *.hex
 
 # ### Custom
-# lazy-lock.json
+lazy-lock.json
 
