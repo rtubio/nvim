@@ -12,3 +12,9 @@ Neovim configuration
 
 - Tubio-Pardavila, Ricardo -- rtpardavila@gmail.com
 
+# Plugins
+
+## copilot.lua
+
+- [copilot.lua](https://github.com/zbirenbaum/copilot.lua)
+
