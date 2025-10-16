@@ -41,4 +41,6 @@ vim.api.nvim_set_keymap("n", "<C-a>", "ggVG", {silent = true, noremap = true})
 require("config.lazy")
 -- Configuration for other packages follows
 require("config.nvim-tree")
+-- Copilot configuration
+require("config.copilot")
 
