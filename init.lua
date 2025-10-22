@@ -29,7 +29,8 @@ vim.g.mapleader = ","
 -- vim.g.maplocalleader = "\\"
 
 -- # ### Shortcuts
-vim.api.nvim_set_keymap("n", "<C-h>", ":NvimTreeToggle<cr>", {silent = true, noremap = true})
+vim.api.nvim_set_keymap("n", "<C-h>", ":NvimTreeToggle<CR>", {silent = true, noremap = true})
+vim.api.nvim_set_keymap("n", '<C-t>', ":NvimTreeFocus<CR>", {silent = true, noremap = true, desc = 'Jump to tree' })
 vim.api.nvim_set_keymap("n", "<C-a>", "ggVG", {silent = true, noremap = true})
 -- on_attach
 -- vim.keymap.set("n", "l", edit_or_open,          opts("Edit Or Open"))
